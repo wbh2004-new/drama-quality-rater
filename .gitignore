@@ -1,0 +1,23 @@
+# 虚拟环境
+.venv/
+venv/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 密钥与本地配置（API key 绝不入仓）
+.env
+*.key
+secrets.json
+config.local.json
+
+# 数据文件（评论原始数据含个人信息风险，不入仓）
+data/
+*.db
+*.sqlite3
+
+# 编辑器/系统
+.idea/
+.vscode/
+*.log

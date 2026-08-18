@@ -20,7 +20,7 @@ lst=[1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
 new_lst=list(set(lst))
 count=len(new_lst)
 
-square=[x**2 for x in range(1:6)]
+square=[x**2 for x in range(1,6)]
 
 name_lst=["虎妈驾到", "渐染", "沈小姐她不干了"]
 name={name_lst[i]:len(name_lst[i]) for i in range(len(name_lst))}
